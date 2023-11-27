@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --tw-border-opacity : none;
+    --tw-bg-opacity: none;
+}
+
+html {
+    background-color: white !important;
+}
+
+.input:focus:focus {
+    outline: none;
+    border-color: hsl(var(--a) / var(--tw-border-opacity));
+}
+
+.input-bordered {
+    --tw-border-opacity: 0.4;
+}
+
+.icon-area {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-transition: background-color 9999s ease-out;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
+
+.input-disabled,
+.input:disabled,
+.input[disabled] {
+    cursor: not-allowed;
+    --tw-border-opacity: 0.2;
+    border-color: none;
+    --tw-bg-opacity: 0;
+    background-color: none !important;
+    --tw-text-opacity: 0.2;
+}
+
+.btn-google {
+    border: 1px solid #ccc !important;
+}
+@media (hover: hover){
+    .btn:hover {
+        transform: scale(1.03);
+        background-color: inherit
+    }
+}
+
