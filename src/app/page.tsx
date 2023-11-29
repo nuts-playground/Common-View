@@ -9,7 +9,7 @@ export default function Home() {
             <div className="hero-content text-center">
                 <div className="flex flex-col max-w-md items-center">
                     <Image src={mainBanner} width={1465 / 5} height={987 / 5} alt={'우리의 메인 배너'} className={`mb-5`}></Image>
-                    <p className="py-6 flex flex-col gap-3">
+                    <div className="py-6 flex flex-col gap-3">
                         <Link href={`https://github.com/withbyeongk`}>
                             <p className={`flex items-center gap-2`}>
                                 <span className="badge badge-primary badge-xs"></span>
@@ -40,7 +40,7 @@ export default function Home() {
                                 <span>에릭</span>
                             </p>
                         </Link>
-                    </p>
+                    </div>
                     <Link href={'/main'} className={`btn btn-outline btn-success w-32`}>시작하기</Link>
                 </div>
             </div>
