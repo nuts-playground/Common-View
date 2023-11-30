@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name    : "onvi",
+    name    : "Common-View",
     script  : "npm",
     args    : "start"
   }]
