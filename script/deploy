@@ -1,5 +1,11 @@
 #!/bin/sh
+# shellcheck disable=SC2087
 ssh ubuntu@3.38.55.36 <<EOF
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+    nvm use --delete-prefix v18.18.2 --silent
+
     cd ~/ Common-View
     git pull origin main
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
@@ -7,7 +13,7 @@ ssh ubuntu@3.38.55.36 <<EOF
     nvm install 18.18.2
     npm install
     npm install -g pm2
-    pm2 install typescript
+    export PATH="$PATH:$HOME/.nvm/versions/node/v18.18.2/bin"
     pm2 restart ecosystem.config.js
     exit
 EOF
