@@ -1,6 +1,5 @@
 #!/bin/sh
 ssh ubuntu@3.38.55.36 <<EOF
-
     cd ~/ Common-View
     git pull origin main
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
@@ -8,8 +7,7 @@ ssh ubuntu@3.38.55.36 <<EOF
     nvm install 18.18.2
     npm install
     npm install -g pm2
-    npm run build
     pm2 install typescript
-    pm2 restart Common-View
+    pm2 restart ecosystem.config.js
     exit
 EOF
