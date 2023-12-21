@@ -61,9 +61,27 @@ input:-webkit-autofill:active {
     border: 1px solid #ccc !important;
 }
 @media (hover: hover){
-    .btn:hover {
+    .btn-info:hover {
         transform: scale(1.03);
-        background-color: inherit
+        /*background-color: inherit*/
+    }
+    .bg-jose:hover {
+        transform: scale(1.03);
+        background-color: #2db400
+    }
+    .bg-iron:hover {
+        transform: scale(1.03);
+        background-color: #1c39bb
+    }
+
+    .bg-eric:hover {
+        transform: scale(1.03);
+        background-color: #1EC078;
+    }
+
+    .bg-austin:hover {
+        transform: scale(1.03);
+        background-color: #82b553;
     }
 }
 

@@ -9,10 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "github": "#24292F",
-        "kakao": "#FEE500",
-        "naver": "#03C75A"
-      }
+        github: "#24292F",
+        kakao: "#FEE500",
+        naver: "#03C75A",
+        iron: "#1c39bb",
+        austin: "#82b553",
+        jose: '#2db400',
+        eric: '#1EC078'
+      },
+      mytheme: {
+        primary: "#fb275d",
+        secondary: "#ffcc00",
+        accent: "rgba(0,204,111,0.53)",
+        neutral: "#a358df",
+        'base-100': "#d1d5db",
+        success: "#00cc6f",
+        warning: "#fcb545",
+        error: "#e54e68",
+      },
     },
   },
   daisyui: {
@@ -20,36 +34,21 @@ const config: Config = {
     themes: [
       {
         mytheme: {
-
-          "primary": "#fb275d",
-
-          "secondary": "#ffcc00",
-
-          "accent": "#00cc6f",
-
-          "neutral": "#a358df",
-
-          "base-100" : "#d1d5db",
-
-          "info": "#00cff4",
-
-          "success": "#00cc6f",
-
-          "warning": "#fcb545",
-
-          "error": "#e54e68",
-
-          ".btn-custom": {
-            "font-weight": "400",
-            "border": "none",
-          },
+          primary: "#fb275d",
+          secondary: "#ffcc00",
+          accent: "rgba(0,204,111,0.53)",
+          neutral: "#a358df",
+          'base-100': "#d1d5db",
+          success: "#00cc6f",
+          warning: "#fcb545",
+          error: "#e54e68",
         },
       },
-
     ],
   },
   plugins: [
-    require("daisyui")
+    require('daisyui'),
   ],
 }
+
 export default config
