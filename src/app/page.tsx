@@ -21,7 +21,7 @@ export default function Home() {
                   userImage={'/user-jose-profile.png'}/>
               <StartCard
                   customDesc={""}
-                  customColor=""
+                  customColor="bg-jhonny"
                   userName="조니"
                   link="devssk"
                   color="btn-info"

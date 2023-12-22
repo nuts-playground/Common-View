@@ -15,7 +15,8 @@ const config: Config = {
         iron: "#1c39bb",
         austin: "#82b553",
         jose: '#2db400',
-        eric: '#1EC078'
+        eric: '#1EC078',
+        jhonny: '#8c8cff'
       },
       mytheme: {
         primary: "#fb275d",
