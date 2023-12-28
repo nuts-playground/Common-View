@@ -16,7 +16,8 @@ const config: Config = {
         austin: "#82b553",
         jose: '#2db400',
         eric: '#1EC078',
-        jhonny: '#8c8cff'
+        jhonny: '#8c8cff',
+        teo: '#ffff00'
       },
       mytheme: {
         primary: "#fb275d",

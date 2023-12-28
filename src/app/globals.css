@@ -83,5 +83,13 @@ input:-webkit-autofill:active {
         transform: scale(1.03);
         background-color: #82b553;
     }
+    .bg-teo:hover {
+        transform: scale(1.03);
+        background-color: #ffff00;
+    }
+}
+
+.bg-teo {
+    color: rgba(0, 0, 0, 0.65);
 }
 

@@ -40,6 +40,13 @@ export default function Home() {
                   link="seokho7"
                   color="btn-info"
                   userImage={'/user-eric-profile.png'}/>
+              <StartCard
+                  customDesc={""}
+                  customColor="bg-teo"
+                  userName="테오"
+                  link="mynameishomin"
+                  color="btn-info"
+                  userImage={'/user-normal-profile.png'}/>
           </div>
       </main>
   )
