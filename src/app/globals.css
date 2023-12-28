@@ -78,18 +78,20 @@ input:-webkit-autofill:active {
         transform: scale(1.03);
         background-color: #1EC078;
     }
-
+    .bg-jhonny:hover {
+        transform: scale(1.03);
+        background-color: #8c8cff;
+    }
     .bg-austin:hover {
         transform: scale(1.03);
         background-color: #82b553;
     }
-    .bg-teo:hover {
+    .bg-theo:hover {
         transform: scale(1.03);
         background-color: #ffff00;
     }
 }
-
-.bg-teo {
+.bg-theo {
     color: rgba(0, 0, 0, 0.65);
 }
 
