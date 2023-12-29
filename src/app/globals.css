@@ -6,6 +6,9 @@
     --tw-border-opacity : none;
     --tw-bg-opacity: none;
 }
+body {
+    background-color: #ffffff;
+}
 
 html {
     background-color: white !important;
