@@ -6,7 +6,7 @@ import Loading from "@/components/loading";
 import ContentCard from "@/components/content-card";
 export default function Main() {
     return(
-        <main>
+        <main className={`h-full flex flex-col justify-between`}>
             <Header/>
             <section className={`px-8 py-8 flex justify-center`}>
                 <div className=" max-w-6xl w-full flex flex-col items-center justify-center ">
@@ -18,6 +18,9 @@ export default function Main() {
                     </div>
                     <div className={`w-full`}>
                         <ul className={`w-full flex flex-wrap justify-center gap-3`}>
+                            <li>
+                                <ContentCard/>
+                            </li>
                             <li>
                                 <ContentCard/>
                             </li>

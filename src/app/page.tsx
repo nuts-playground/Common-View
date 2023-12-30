@@ -4,7 +4,7 @@ import StartCard from "@/components/start-card";
 export default function Home() {
   return (
       <main>
-          <section className={`px-8  py-8 min-h-screen flex justify-center`}>
+          <section className={`px-8 min-h-screen flex justify-center`}>
               <div className="min-h-screen w-full flex flex-col items-center justify-center">
                   <ul className={`flex flex-wrap justify-center gap-5 max-w-5xl`}>
                       <li>

@@ -36,7 +36,7 @@ const StartCard: React.FC<StartCardProps>
                         <p className={'underline font-bold'}>Github</p>
                     </div>
                 </Link>
-                <div className={`flex gap-2 items-center `}>
+                <div className={`flex gap-2 items-center`}>
                     <p className={`badge badge-xs ${customColor}`}></p>
                     <p className={`text-gray-500 text-sm`}>{customDesc ? customDesc : '해당 사이트의 설명...'}</p>
                 </div>

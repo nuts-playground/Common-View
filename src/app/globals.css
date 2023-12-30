@@ -94,6 +94,9 @@ input:-webkit-autofill:active {
         transform: scale(1.03);
         background-color: #ffff00;
     }
+    .btn-google:hover {
+        background-color: white;
+    }
 }
 .bg-theo {
     color: rgba(0, 0, 0, 0.65);
