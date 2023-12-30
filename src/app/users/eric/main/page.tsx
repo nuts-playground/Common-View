@@ -12,7 +12,7 @@ export default function Main() {
                 <div className=" max-w-6xl w-full flex flex-col items-center justify-center ">
                     <div className="hero-content text-center mb-3">
                         <div className="max-w-md">
-                            <h1 className="text-4xl font-bold">Hi there 😁</h1>
+                            <h1 className="text-4xl font-bold">Hi there 👋</h1>
                             <p className={`py-6`}>저는 개발을 시작하고 이런 걸 만들었어요.</p>
                         </div>
                     </div>
