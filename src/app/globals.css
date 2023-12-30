@@ -7,12 +7,13 @@
     --tw-bg-opacity: none;
 }
 body {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 
 html {
-    background-color: white !important;
+    background-color: #ffffff !important;
 }
+
 
 .input:focus:focus {
     outline: none;

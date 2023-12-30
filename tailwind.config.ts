@@ -19,6 +19,13 @@ const config: Config = {
         jhonny: '#8c8cff',
         theo: '#ffff00'
       },
+      borderWidth: {
+        DEFAULT: '1px',
+        '05': '0.5px',
+      },
+      screens: {
+        'tablet-up': '768px',
+      },
       mytheme: {
         primary: "#fb275d",
         secondary: "#ffcc00",
