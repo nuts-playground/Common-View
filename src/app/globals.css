@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root{
     --tw-border-opacity : none;
     --tw-bg-opacity: none;
 }
 body {
     background-color: #ffffff !important;
+
 }
 
+.bmhttf {
+    font-family: -apple-system, "BM Hanna Pro", sans-serif;
+}
+.bmjuattf {
+    font-family: -apple-system, "BM Jua", sans-serif;
+}
+.bmhtairttf {
+    font-family: -apple-system, "BM Hanna Air", sans-serif;
+}
 html {
     background-color: #ffffff !important;
 }

@@ -23,6 +23,12 @@ const config: Config = {
         DEFAULT: '1px',
         '05': '0.5px',
       },
+      scale: {
+        DEFAULT: '0',
+        '101': '1.01',
+        '102': '1.02',
+        '103': '1.03'
+      },
       screens: {
         'tablet-up': '768px',
       },
