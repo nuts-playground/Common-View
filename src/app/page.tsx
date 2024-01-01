@@ -45,7 +45,7 @@ export default function Home() {
                       </li>
                       <li>
                           <StartCard
-                              customDesc={""}
+                              customDesc={"작업물 모음집"}
                               customColor="bg-eric"
                               userName="에릭"
                               githubLink="seokho7"
