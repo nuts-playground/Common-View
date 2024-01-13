@@ -29,7 +29,7 @@ const Header: React.FC<any> = () => {
                             <dialog id="my_modal_2" className="modal">
                                 <div className="modal-box flex justify-center bg-white w-72 py-16">
                                     <div className="card flex-shrink-0  gap-4">
-                                        <Link href={"/"} className='btn btn-custom btn-google bg-white hover:btn-google'>
+                                        <Link href={'/'} className='btn btn-custom btn-google bg-white hover:btn-google'>
                                             <GOOGLE_ICON/>
                                             <p>구글 계정으로 로그인</p>
                                         </Link>
