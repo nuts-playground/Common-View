@@ -34,6 +34,9 @@ const Footer: React.FC<any> = () => {
                             <p>에릭</p>
                             <p>테오</p>
                         </div>
+                        <div className={`flex flex-col gap-2`}>
+                            <p>그린</p>
+                        </div>
                     </div>
                 </nav>
                 <nav className={`w-56`}>
