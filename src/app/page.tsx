@@ -61,6 +61,15 @@ export default function Home() {
                               startLink={'/users/theo/main'}
                               userImage={'/user-normal-profile.png'}/>
                       </li>
+                      <li>
+                          <StartCard
+                              customDesc={""}
+                              customColor="bg-green"
+                              userName="그린"
+                              githubLink="minheeya"
+                              startLink={'/users/green/main'}
+                              userImage={'/user-green-profile.png'}/>
+                      </li>
                   </ul>
               </div>
           </section>

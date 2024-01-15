@@ -17,7 +17,8 @@ const config: Config = {
         jose: '#2db400',
         eric: '#1EC078',
         jhonny: '#8c8cff',
-        theo: '#ffff00'
+        theo: '#ffff00',
+        green: '#2db400'
       },
       borderWidth: {
         DEFAULT: '1px',
