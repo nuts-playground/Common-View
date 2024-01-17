@@ -1,19 +1,27 @@
-import Link from "next/link";
-import Footer from "@/components/footer";
-import React from "react";
-import Header from "@/components/header";
-import Loading from "@/components/loading";
-import ContentCard from "@/components/content-card";
-
+'use client'
 // @ts-ignore
 import * as Icons from '/public/icon/index.ts';
+import Footer from "@/components/footer";
+import React, {useEffect} from "react";
+import Header from "@/components/header";
+import ContentCard from "@/components/content-card";
+import * as process from "process";
+import axios from "axios";
+
+
+
 export default function Main() {
+
+    useEffect(() => {
+
+    }, []);
+
     return(
         <main className={`h-full flex flex-col justify-between `}>
-            <Header/>
+            <Header state={false}/>
             <section className={`px-8 py-8 flex justify-center bmhtairttf`}>
-                <div className=" max-w-6xl w-full flex flex-col items-center justify-center ">
-                    <div className="hero-content text-center mb-3">
+                <div className=" max-w-6xl w-full flex flex-col items-center justify-center">
+                    <div className="hero-content text-center mb-3 p-0">
                         <div className="max-w-md">
                             <h1 className="text-4xl font-bold bmhttf">Hi there 👋</h1>
                             <p className={`pt-3 pb-6`}>저는 이런 걸 만들 예정입니다!</p>
