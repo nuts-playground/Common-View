@@ -9,10 +9,26 @@ import * as Icons from '../../public/icon/index';
 import * as process from "process";
 import axios from "axios";
 
-const Header: React.FC<any> = () => {
+
+export default function Header() {
+    const [loginState, setLoginState] = useState(false)
+    const getUserReq = async() => {
+        const userInfoUrl = process.env.NEXT_PUBLIC_USER_INFO_URL as string;
+        const res = await fetch(userInfoUrl,{
+            method: 'GET',
+            credentials: "include"
+        })
+        const resJson = await res.json();
+        const data = await resJson.data
+        const isLogin = Boolean(data.name && data.provider)
+
+        isLogin? setLoginState(true) : setLoginState(false)
+    }
+    getUserReq()
+
     const oauthLogin = async (e: React.MouseEvent<HTMLButtonElement>, param: string) => {
         const oauthUrl = process.env.NEXT_PUBLIC_OAUTH_START_LOGIN_URL as string;
-        axios.post(oauthUrl, {method: param}, {
+        await axios.post(oauthUrl, {method: param}, {
             withCredentials: true
         })
             .then(res => res.data)
@@ -26,7 +42,6 @@ const Header: React.FC<any> = () => {
             })
 
     }
-    const [loginState, setLoginState] = useState(false)
     const loginBtn = () => {
         return (
             <button
@@ -40,8 +55,6 @@ const Header: React.FC<any> = () => {
         const loginModal = document.getElementById('my_modal_2') as HTMLDialogElement;
         loginModal.showModal();
     }
-
-
     const userProfile = () => {
         return (
             <div className={`flex items-center gap-1 border-base-400`}>
@@ -71,7 +84,7 @@ const Header: React.FC<any> = () => {
                     <ul className="px-1">
                         <li>
                             {
-                                loginState ? userProfile() : loginBtn()
+                                loginState ?  userProfile() : loginBtn()
                             }
 
                             <dialog id="my_modal_2" className="modal">
@@ -118,4 +131,5 @@ const Header: React.FC<any> = () => {
     )
 }
 
-export default Header;
+
+

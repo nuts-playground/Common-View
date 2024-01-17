@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC<any> = () => {
     return (
-        <footer className="footer px-8 py-4 text-base-content border-t-05 border-gray-300 flex justify-center">
+        <footer className="footer px-8 py-4 text-base-content border-t-05 border-gray-300 flex justify-center items-center">
             <div className={`w-full flex max-w-6xl gap-5 flex-wrap justify-between`}>
                 <aside className={`w-56`}>
                     <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd" className="fill-current">
