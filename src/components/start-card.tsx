@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-// @ts-ignore
 import GihubIcon from "../../public/github-mark.png";
-import Footer from "@/components/footer";
 interface StartCardProps {
     userName: string;
     githubLink: string;
