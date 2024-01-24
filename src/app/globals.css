@@ -108,6 +108,11 @@ input:-webkit-autofill:active {
     .btn-google:hover {
         background-color: white;
     }
+
+    .bg-green:hover {
+        transform: scale(1.03);
+        background-color: #2db400;
+    }
 }
 .bg-theo {
     color: rgba(0, 0, 0, 0.65);
