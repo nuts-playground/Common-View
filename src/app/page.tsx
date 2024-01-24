@@ -22,7 +22,7 @@ export default function Home() {
                               customColor="bg-jose"
                               userName="호세"
                               githubLink="kiyoung92"
-                              startLink={'/users/jose/main'}
+                              startLink={'https://www.joselog.com/'}
                               userImage={'/user-jose-profile.png'}/>
                       </li>
                       <li>
@@ -49,7 +49,7 @@ export default function Home() {
                               customColor="bg-eric"
                               userName="에릭"
                               githubLink="seokho7"
-                              startLink={'/users/eric/main'}
+                              startLink={'https://www.seokhoweb.com/'}
                               userImage={'/user-eric-profile.png'}/>
                       </li>
                       <li>
