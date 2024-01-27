@@ -8,4 +8,4 @@
 2024.01.24 - 팀 이름 고정 및 도메인 변경   
 
 ## 배포 사이트
-https://www.notworking.com/
+https://www.notworking.site/
