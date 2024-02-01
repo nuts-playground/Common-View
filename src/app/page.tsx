@@ -58,7 +58,7 @@ export default function Home() {
                               customColor="bg-theo"
                               userName="테오"
                               githubLink="mynameishomin"
-                              startLink={'/users/theo/main'}
+                              startLink={'https://playground.mynameishomin.com/'}
                               userImage={'/user-normal-profile.png'}/>
                       </li>
                       <li>
