@@ -18,7 +18,7 @@ export default function Home() {
                       </li>
                       <li>
                           <StartCard
-                              customDesc={""}
+                              customDesc={"직접 만드는 블로그"}
                               customColor="bg-jose"
                               userName="호세"
                               githubLink="kiyoung92"
@@ -54,7 +54,7 @@ export default function Home() {
                       </li>
                       <li>
                           <StartCard
-                              customDesc={""}
+                              customDesc={"미니 게임 모음집"}
                               customColor="bg-theo"
                               userName="테오"
                               githubLink="mynameishomin"
